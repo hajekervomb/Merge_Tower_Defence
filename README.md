@@ -1,2 +1,2 @@
-# HowLuckyAreYou_game
-Short Game for Yandex
+# Merge_Tower_Defence
+WebGL Unity game
