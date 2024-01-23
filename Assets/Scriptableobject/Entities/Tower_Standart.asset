@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724d0da311f20694e9fbdd167acb580a, type: 3}
+  m_Name: Tower_Standart
+  m_EditorClassIdentifier: 
+  Type: Standart
+  Towers:
+  - Type: Standart
+    Level: 1
+    Price: 10
+    Damage: 2
+    RateOfFire: 0.2
+    TypeShot: {fileID: 1007383417267181876, guid: 7bf6b44ee5df6df4181bcdf07e28eea4, type: 3}
+  - Type: Standart
+    Level: 2
+    Price: 20
+    Damage: 4
+    RateOfFire: 0.4
+    TypeShot: {fileID: 1007383417267181876, guid: 7bf6b44ee5df6df4181bcdf07e28eea4, type: 3}
