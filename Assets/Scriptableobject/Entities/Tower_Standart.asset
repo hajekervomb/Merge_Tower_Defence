@@ -12,17 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 724d0da311f20694e9fbdd167acb580a, type: 3}
   m_Name: Tower_Standart
   m_EditorClassIdentifier: 
-  Type: Standart
-  Towers:
-  - Type: Standart
-    Level: 1
-    Price: 10
-    Damage: 2
-    RateOfFire: 0.2
-    TypeShot: {fileID: 1007383417267181876, guid: 7bf6b44ee5df6df4181bcdf07e28eea4, type: 3}
-  - Type: Standart
-    Level: 2
-    Price: 20
-    Damage: 4
-    RateOfFire: 0.4
-    TypeShot: {fileID: 1007383417267181876, guid: 7bf6b44ee5df6df4181bcdf07e28eea4, type: 3}
+  type: Standart
+  level: 1
+  basePrice: 100
+  baseDamage: 5
+  baseRateOfFire: 0.2
+  baseSpeedOfTheBullet: 1
+  typeShot: {fileID: 1007383417267181876, guid: 7bf6b44ee5df6df4181bcdf07e28eea4, type: 3}
+  view: {fileID: 6632996930829838532, guid: 1063a260cea0a0444af04bdec413b9c5, type: 3}
+  boostForDamage: 0.05
+  boostForPrice: 0.20000000298023224
+  Lock: 0
