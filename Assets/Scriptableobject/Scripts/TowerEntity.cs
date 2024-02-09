@@ -1,8 +1,9 @@
 using System;
+using Tower;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Tower_", menuName = "ScriptableObjects/Tower")]
-public class TowerEntitie : ScriptableObject
+public class TowerEntity : ScriptableObject
 {
     [SerializeField] private string type = default;
     [SerializeField] private uint level = 1;

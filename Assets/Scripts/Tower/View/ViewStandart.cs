@@ -1,12 +1,15 @@
-public class ViewStandart : BaseViewTower
+namespace Tower
 {
-    public override void AnimationShot()
+    public class ViewStandart : BaseViewTower
     {
+        public override void AnimationShot()
+        {
 
-    }
+        }
 
-    public override void AnimationWait()
-    {
+        public override void AnimationWait()
+        {
 
+        }
     }
 }
