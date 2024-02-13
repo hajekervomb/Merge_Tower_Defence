@@ -6,16 +6,10 @@ namespace Tower
 {
     public class Tower : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
+        [SerializeField] private TowerEntity entity = default;
+        [SerializeField] private BaseTypeShot TypeShot = default;
+        [SerializeField] private BaseViewTower View = default;
 
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
+        
     }
 }

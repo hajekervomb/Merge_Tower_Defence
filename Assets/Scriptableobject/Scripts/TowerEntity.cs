@@ -1,5 +1,4 @@
 using System;
-using Tower;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Tower_", menuName = "ScriptableObjects/Tower")]
@@ -11,8 +10,7 @@ public class TowerEntity : ScriptableObject
     [SerializeField] private uint baseDamage = default;
     [SerializeField] private double baseRateOfFire = default;
     [SerializeField] private double baseSpeedOfTheBullet = default;
-    [SerializeField] private BaseTypeShot typeShot = default;
-    [SerializeField] private BaseViewTower view = default;
+    [SerializeField] private Sprite[] icons = default;
     [Header("Параметр улучшения для расчёта урона")]
     [SerializeField] [Range(0.01f, 1f)] private double boostForDamage = default;
     [Header("Параметр улучшения для расчёта цены")]
@@ -26,8 +24,7 @@ public class TowerEntity : ScriptableObject
     public uint BaseDamage => baseDamage;
     public double BaseRateOfFire => baseRateOfFire;
     public double BaseSpeedOfTheBullet => baseSpeedOfTheBullet;
-    public BaseTypeShot TypeShot => typeShot;
-    public BaseViewTower View => view;
+    public Sprite[] Icons => icons;
 
     public double GetDamageCurrentLevel(uint level)
     {

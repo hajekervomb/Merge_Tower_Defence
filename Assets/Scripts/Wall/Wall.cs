@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class Wall : MonoBehaviour
+namespace Wall
 {
-    // Start is called before the first frame update
-    void Start()
+    public class Wall : MonoBehaviour
     {
-        
-    }
+        [SerializeField] private WallEntity entity = default;
+        [SerializeField] private BaseViewWall view = default;
+        [SerializeField] private TextMeshPro textLevel = default;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private int healthPoints = default;
+        private uint level = default;
+
+        private void Update()
+        {
+            if (Input.GetKey(KeyCode.K))
+            {
+                view.AnimationDamage();
+            }
+        }
     }
 }

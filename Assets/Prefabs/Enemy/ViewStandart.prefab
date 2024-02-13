@@ -44,6 +44,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1d5a8c3d64dce4a88ff9ac072ba6fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  icons: []
-  objAnimShot: {fileID: 0}
+  icons:
+  - {fileID: 21300000, guid: 4c5301cd897cd4745b879950ddcf0c1d, type: 3}
+  - {fileID: 21300000, guid: 0ae849a11a8109d42920a837da0913a1, type: 3}
+  - {fileID: 21300000, guid: 4d3482df3a878474d901b9c73e371413, type: 3}
+  - {fileID: 21300000, guid: 25f6faa709d7f01428f4aae9991ba35c, type: 3}
+  - {fileID: 21300000, guid: 3006f3fd9d88df245a6d52f7a52682e3, type: 3}
+  - {fileID: 21300000, guid: 0bb8214755edf7f4e84873174186d3d6, type: 3}
+  - {fileID: 21300000, guid: 12edf441ab6524445ab1b0df20616f61, type: 3}
+  - {fileID: 21300000, guid: 4f62e06334c5c63489081ee94ddd5d78, type: 3}
+  - {fileID: 21300000, guid: 35057d19027245743bdeb0c64964628e, type: 3}
+  - {fileID: 21300000, guid: 6bbbe02700612f24bbbdeccb661d406e, type: 3}
+  - {fileID: 21300000, guid: 89a03a0c208ca4c41bb7f91a33c8b293, type: 3}
+  - {fileID: 21300000, guid: 0f473b800e54ae6448da806424ddd9ea, type: 3}
+  - {fileID: 21300000, guid: 7d5af964940301c4899d30b932ff2cc9, type: 3}
+  - {fileID: 21300000, guid: feccd245e66c6404489f6edba2de5b54, type: 3}
+  - {fileID: 21300000, guid: 49367e990fc6d5c44b2c900feb74d6b0, type: 3}
+  - {fileID: 21300000, guid: 43cff32ec60e14a4d931a1c14da96f36, type: 3}
+  - {fileID: 21300000, guid: 8e50d65466240674aaaf7384fd9996e3, type: 3}
+  - {fileID: 21300000, guid: 982beb106e03195488389baf820a675d, type: 3}
+  - {fileID: 21300000, guid: 8036e0ee034a93a47b249a42ab714a05, type: 3}
+  - {fileID: 21300000, guid: 23e0392f71f8cf0469e6ce4539f3ac91, type: 3}
+  - {fileID: 21300000, guid: 57843f4ae5adc544ea05050398b5c9aa, type: 3}
+  - {fileID: 21300000, guid: 12c97c1566dcf574288cbb3bab07d58f, type: 3}
+  - {fileID: 21300000, guid: d6f9884383dff9b49b0cd4822da6b0d6, type: 3}
+  - {fileID: 21300000, guid: 20dba2bcdcb413a4d8d35de0efc248df, type: 3}
+  - {fileID: 21300000, guid: c4db0660f460b4d408315675d2cc879f, type: 3}
+  - {fileID: 21300000, guid: 2185778451c9b3749ade9cb9e97aa57e, type: 3}
+  - {fileID: 21300000, guid: f0d2b6eec13c9be46a8e2e985f803ad4, type: 3}
+  - {fileID: 21300000, guid: becfde19fbaacf84c972db47361c7067, type: 3}
+  - {fileID: 21300000, guid: f7382f891157a9043abe9802a8bc8429, type: 3}
+  - {fileID: 21300000, guid: 13494e7b4445ca84a906b7c51af7df5b, type: 3}
+  - {fileID: 21300000, guid: aead23445d7ecfe498d06e7c5f01c10c, type: 3}
+  - {fileID: 21300000, guid: 6231e03fb38584c4f8fbf4525af5e986, type: 3}
+  - {fileID: 21300000, guid: 43616d5f6cdf94e46b49b234d0c325b9, type: 3}
+  weapons: []
+  objAnimHit: {fileID: 0}
   objAnimMove: {fileID: 0}

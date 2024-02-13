@@ -15,4 +15,5 @@ MonoBehaviour:
   baseHealthPoints: 1000
   level: 1
   basePrice: 100
+  icon: {fileID: 21300000, guid: aa985713492d9af4aac63ce83613c518, type: 3}
   boostForPrice: 0.07999999821186066

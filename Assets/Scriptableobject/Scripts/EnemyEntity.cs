@@ -1,4 +1,3 @@
-using Enemy;
 using System;
 using UnityEngine;
 
@@ -10,7 +9,8 @@ public class EnemyEntity : ScriptableObject
     [SerializeField] private uint baseAward = default;
     [SerializeField] private double baseRateOfFire = default;
     [SerializeField] private double baseSpeed = default;
-    [SerializeField] private BaseViewEnemy view = default;
+    [SerializeField] private Sprite[] icons = default;
+    [SerializeField] private Sprite[] weapons = default;
 
     [Header("Параметр улучшения для расчёта награды")]
     [SerializeField] [Range(0.01f, 1f)] private double boostForAward = default;
@@ -20,7 +20,8 @@ public class EnemyEntity : ScriptableObject
     public uint BaseAward => baseAward;
     public double BaseRateOfFire => baseRateOfFire;
     public double BaseSpeed => baseSpeed;
-    public BaseViewEnemy View => view;
+    public Sprite[] Icons => icons;
+    public Sprite[] Weapons => weapons;
 
     public int GetHealthCurrentLevel(uint level)
     {

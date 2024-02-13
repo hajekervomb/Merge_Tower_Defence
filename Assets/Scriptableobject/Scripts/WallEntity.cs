@@ -7,6 +7,7 @@ public class WallEntity : ScriptableObject
     [SerializeField] private int baseHealthPoints = default;
     [SerializeField] private uint level = 1;
     [SerializeField] private uint basePrice = default;
+    [SerializeField] private Sprite icon = default;
 
     [Header("Параметр улучшения для расчёта цены")]
     [SerializeField] [Range(0.01f, 1f)] private double boostForPrice = default;
@@ -14,7 +15,7 @@ public class WallEntity : ScriptableObject
     public int BaseHealthPoints => baseHealthPoints;
     public uint Level => level;
     public uint BasePrice => basePrice;
-
+    public Sprite Icon => icon;
 
     public int GetHealthCurrentLevel(uint level)
     {

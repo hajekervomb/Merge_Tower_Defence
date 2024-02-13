@@ -6,16 +6,9 @@ namespace Enemy
 {
     public class Enemy : MonoBehaviour
     {
-        // Start is called before the first frame update
-        void Start()
-        {
+        [SerializeField] private EnemyEntity entity = default;
+        [SerializeField] private BaseViewEnemy view = default;
 
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
+        
     }
 }
